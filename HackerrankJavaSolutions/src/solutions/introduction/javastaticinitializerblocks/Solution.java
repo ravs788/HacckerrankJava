@@ -4,16 +4,29 @@ import java.util.Scanner;
 
 public class Solution {
 
-	public static void main(String[] args) {
-		Scanner sc=new Scanner(System.in);
-        int n=sc.nextInt();            
-        String ans="";
-        
-        if(n%2!=0) ans = "Weird";
-        else if (n>=2 && n<=5) ans = "Not Weird";
-        else if (n>=6 && n<=20) ans = "Weird";
-        else if (n>20) ans = "Not Weird";
-        System.out.println(ans);
-	}
+	static Scanner input = new Scanner(System.in);
+	static boolean flag = true;
+	static int B = input.nextInt();
+	static int H = input.nextInt();
 
+	static{
+	    try{
+	        if(B <= 0 || H <= 0){
+	            flag = false;
+	            throw new Exception("Breadth and height must be positive");
+	        }
+	    }catch(Exception e){
+	        System.out.println(e);
+	    }
+
+	}
+	
+	public static void main(String[] args){
+		boolean flag = true;
+		if(flag){
+			int area=B*H;
+			System.out.print(area);
+		}
+		
+	}
 }
