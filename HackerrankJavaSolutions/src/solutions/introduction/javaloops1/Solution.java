@@ -5,19 +5,12 @@ import java.util.Scanner;
 public class Solution {
 
 	public static void main(String[] args) {
-		Scanner scan = new Scanner(System.in);
-        int i = scan.nextInt();
-        double d = scan.nextDouble();
-        scan.nextLine();
-        String s = scan.nextLine();
-
-        // Write your code here.
-        
-
-        System.out.println("String: " + s);
-        System.out.println("Double: " + d);
-        System.out.println("Int: " + i);
-        scan.close();
-	}
-
+        Scanner sc=new Scanner(System.in);
+        int N = sc.nextInt();
+        for(int i=1; i<=10; i++)
+        {
+        	System.out.println(N+" x "+i+" = "+(N*i));
+        }        
+        sc.close();
+    }
 }
