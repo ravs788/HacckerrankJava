@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="39722" started-at="2018-06-08T11:54:06Z" finished-at="2018-06-08T11:54:46Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="39722" started-at="2018-06-08T11:54:06Z" finished-at="2018-06-08T11:54:46Z">
+      <class name="basePackage.WebSiteOperations">
+        <test-method status="PASS" signature="Precondition()[pri:0, instance:basePackage.WebSiteOperations@1700915]" name="Precondition" is-config="true" duration-ms="24981" started-at="2018-06-08T11:54:06Z" finished-at="2018-06-08T11:54:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Precondition -->
+        <test-method status="PASS" signature="MainCondition()[pri:0, instance:basePackage.WebSiteOperations@1700915]" name="MainCondition" duration-ms="13917" started-at="2018-06-08T11:54:31Z" finished-at="2018-06-08T11:54:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MainCondition -->
+        <test-method status="PASS" signature="PostCondition()[pri:0, instance:basePackage.WebSiteOperations@1700915]" name="PostCondition" is-config="true" duration-ms="751" started-at="2018-06-08T11:54:45Z" finished-at="2018-06-08T11:54:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PostCondition -->
+      </class> <!-- basePackage.WebSiteOperations -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
